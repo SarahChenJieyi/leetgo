@@ -1,4 +1,4 @@
-package pointers
+package monotonic_stack
 
 import (
 	"fmt"

@@ -5,9 +5,13 @@
 - 证明有环：慢指针走一步，快指针走两步，若最终重合，证明有环
 ### Examples
 
-## Monotonous Stack | 单调栈
+## Monotonic Stack | 单调栈
 ### General Idea
-- 可以维护一个存储下标的单调栈
-- 通常可以用于寻找下一个最高最低点的题型中
+- 寻找下一个最低点或下一个最高点
+    - 维护一个存储下标的单调栈
+    - 保持栈中下标对应的数组值是单调递增或递减的
+- 维持字典序
+    - 维护字典序的单调栈
 ### Examples
 [739. Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)
+[42. Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water/)
